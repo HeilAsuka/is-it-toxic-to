@@ -74,7 +74,7 @@ function _DetailSection(
               key={index}
               text={`${
                 ANIMAL_EMOJI_MAP[animal]
-              } ${animal[0].toUpperCase()}`}
+              } ${animal}`}
               intent="danger"
             />
           ))}
