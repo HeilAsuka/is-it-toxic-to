@@ -76,7 +76,7 @@ function _DetailSection(
                 ANIMAL_EMOJI_MAP[animal]
               } ${animal[0].toUpperCase()}${animal
                 .substring(1)
-                .toLowerCase()}s`}
+                .toLowerCase()}`}
               intent="danger"
             />
           ))}
