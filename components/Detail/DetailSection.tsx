@@ -72,9 +72,7 @@ function _DetailSection(
           {activePlant.toxicTo.map((animal, index) => (
             <DetailTagListItem
               key={index}
-              text={`${
-                ANIMAL_EMOJI_MAP[animal]
-              } ${animal}`}
+              text={`${ANIMAL_EMOJI_MAP[animal]} ${animal}`}
               intent="danger"
             />
           ))}
