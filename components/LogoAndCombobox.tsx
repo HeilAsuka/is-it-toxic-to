@@ -26,7 +26,7 @@ export function LogoAndCombobox(props: LogoAndComboboxProps) {
           className="z-10 cursor-pointer select-none overflow-visible text-center text-[4rem] sm:text-[5rem] md:text-[6rem]"
         >
           🪴 <br className="md:hidden" />
-          Is It Toxic To?
+          这玩意有毒吗？
         </motion.h1>
       </Link>
       <CommandBar plants={plants} deemphasise={props.deemphasise} />
