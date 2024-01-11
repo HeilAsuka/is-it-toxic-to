@@ -31,7 +31,7 @@ export function CommandBar({ plants, deemphasise = false }: CommandBarProps) {
       <Command.Input
         ref={inputRef}
         className="border-b-[1px] border-neutral-100 p-4 text-xl font-light tracking-tight placeholder:text-neutral-400"
-        placeholder="Search for toxic plants..."
+        placeholder="查找有毒植物..."
         autoFocus
       />
       <Command.List className="h-[50vh] max-h-96 overflow-y-auto p-2">
