@@ -78,16 +78,10 @@ function _DetailSection(
           ))}
         </DetailTagList>
         {activePlant.toxicPrinciples !== null && (
-          <DetailLabel
-            title="有毒物质"
-            text={activePlant.toxicPrinciples}
-          />
+          <DetailLabel title="有毒物质" text={activePlant.toxicPrinciples} />
         )}
         {activePlant.clinicalSigns !== null && (
-          <DetailLabel
-            title="临床症状"
-            text={activePlant.clinicalSigns}
-          />
+          <DetailLabel title="临床症状" text={activePlant.clinicalSigns} />
         )}
       </div>
     </motion.section>
