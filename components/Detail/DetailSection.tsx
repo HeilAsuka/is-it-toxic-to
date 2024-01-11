@@ -59,16 +59,16 @@ function _DetailSection(
       {/* Details */}
       <div className="flex flex-col md:grid md:grid-cols-[10rem,1fr] md:gap-3">
         {activePlant.family !== null && (
-          <DetailLabel title="Family" text={activePlant.family} />
+          <DetailLabel title="科" text={activePlant.family} />
         )}
         {activePlant.commonNames.length > 0 && (
-          <DetailTagList title="Common Names">
+          <DetailTagList title="俗称">
             {activePlant.commonNames.map((commonName, index) => (
               <DetailTagListItem key={index} text={commonName} />
             ))}
           </DetailTagList>
         )}
-        <DetailTagList title="Toxic to">
+        <DetailTagList title="对... 有毒">
           {activePlant.toxicTo.map((animal, index) => (
             <DetailTagListItem
               key={index}
@@ -79,13 +79,13 @@ function _DetailSection(
         </DetailTagList>
         {activePlant.toxicPrinciples !== null && (
           <DetailLabel
-            title="Toxic Principles"
+            title="有毒物质"
             text={activePlant.toxicPrinciples}
           />
         )}
         {activePlant.clinicalSigns !== null && (
           <DetailLabel
-            title="Clinical Signs"
+            title="临床症状"
             text={activePlant.clinicalSigns}
           />
         )}
