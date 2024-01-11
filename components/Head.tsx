@@ -7,12 +7,12 @@ type HeadProps = {
 
 export function Head({
   title,
-  description = "Find out which plants you probably shouldn't let your pets nibble on 🐱🙅🪴",
+  description = "找出你最好不要让你的宠物啃食的植物 🐱🙅🪴",
 }: HeadProps) {
   return (
     <NextHead>
       <title>
-        {typeof title === "string" ? `${title} | ` : ""} Is It Toxic To?
+        {typeof title === "string" ? `${title} | ` : ""} 这玩意有毒吗？
       </title>
       <meta name="description" content={description} key="description" />
 
@@ -21,8 +21,8 @@ export function Head({
         property="og:title"
         content={
           typeof title === "string"
-            ? `${title} | Is It Toxic To?`
-            : "Is It Toxic To? | Check if a plant is toxic to an animal"
+            ? `${title} | 这玩意有毒吗？`
+            : "这玩意有毒吗？ | 检查植物是否对动物有毒"
         }
         key="og:title"
       />
