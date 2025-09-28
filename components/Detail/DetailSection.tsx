@@ -45,7 +45,7 @@ function _DetailSection(
       {/* Navigation */}
       <div className="flex justify-between">
         <Button onClick={clearActivePlant}>←</Button>
-        <ExternalLink href={activePlant.link}>ASPCA Website</ExternalLink>
+        <ExternalLink href={activePlant.link}>ASPCA 官网</ExternalLink>
       </div>
 
       {/* Header */}
@@ -68,7 +68,7 @@ function _DetailSection(
             ))}
           </DetailTagList>
         )}
-        <DetailTagList title="对... 有毒">
+        <DetailTagList title="对以下动物有毒">
           {activePlant.toxicTo.map((animal, index) => (
             <DetailTagListItem
               key={index}

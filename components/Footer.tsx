@@ -11,14 +11,14 @@ export function Footer() {
       className="text-md flex select-none flex-col items-center gap-4 pb-10 text-neutral-400 sm:flex-row sm:gap-6 sm:pb-0"
     >
       <span>
-        Planted 🌱 by{" "}
+        栽种者 🌱{" "}
         <ExternalLink href="https://chester.how">Chester</ExternalLink>
       </span>
       <span className="hidden sm:block">·</span>
       <span>
-        Try it on{" "}
+        在{" "}
         <ExternalLink href="https://www.raycast.com/chesterhow/is-it-toxic-to">
-          Raycast
+          Raycast 上试试
         </ExternalLink>
       </span>
     </motion.footer>
