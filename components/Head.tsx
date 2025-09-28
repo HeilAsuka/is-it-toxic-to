@@ -12,7 +12,7 @@ export function Head({
   return (
     <NextHead>
       <title>
-        {typeof title === "string" ? `${title} | ` : ""} 这玩意有毒吗？
+        {typeof title === "string" ? `${title} | ` : ""} 这玩意儿有毒吗？
       </title>
       <meta name="description" content={description} key="description" />
 
@@ -21,8 +21,8 @@ export function Head({
         property="og:title"
         content={
           typeof title === "string"
-            ? `${title} | 这玩意有毒吗？`
-            : "这玩意有毒吗？ | 检查植物是否对动物有毒"
+            ? `${title} | 这玩意儿有毒吗？`
+            : "这玩意儿有毒吗？ | 检查植物是否对动物有毒"
         }
         key="og:title"
       />
@@ -41,7 +41,7 @@ export function Head({
       <meta property="og:type" content="website" key="og:type" />
       <meta
         property="og:site_name"
-        content="Is It Toxic To?"
+        content="这玩意儿有毒吗？"
         key="og:site_name"
       />
 
@@ -55,8 +55,8 @@ export function Head({
         name="twitter:title"
         content={
           typeof title === "string"
-            ? `${title} | Is It Toxic To?`
-            : "Is It Toxic To? | Check if a plant is toxic to an animal"
+            ? `${title} | 这玩意儿有毒吗？`
+            : "这玩意儿有毒吗？ | 检查植物是否对动物有毒"
         }
         key="twitter:title"
       />
